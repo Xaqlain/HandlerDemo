@@ -1,5 +1,6 @@
 package com.example.handlerdemo;
 
+import android.app.Application;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
@@ -21,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
         handler =  new Handler();
 
     }
+
+    public void onClicked()
+    {
+        super.onDestroy();
+    }
+    protected void onclick(Bundle savedInstanceState){}
     public void startProgress(View view) {
         Runnable runnable =  new Runnable() {
             public void run() {
