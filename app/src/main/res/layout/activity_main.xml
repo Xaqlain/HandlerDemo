@@ -20,5 +20,11 @@
         android:layout_height="wrap_content"
         android:onClick="startProgress"
         android:text="Start Progress"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Handler simple application"
+        android:textSize="20pt"
+        android:textColor="@android:color/holo_red_light"/>
 
 </LinearLayout>
