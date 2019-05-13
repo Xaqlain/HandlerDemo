@@ -23,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-  
+    public void onClicked()
+    {
+        super.onDestroy();
+    }
     protected void onclick(Bundle savedInstanceState){}
     public void startProgress(View view) {
         Runnable runnable =  new Runnable() {
